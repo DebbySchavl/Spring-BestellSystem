@@ -43,7 +43,7 @@ public class ShopService {
             addedProducts.add(product);
         }
 
-        Order newOrder = new Order(UUID.randomUUID().toString(), addedProducts);
+        Order newOrder = new Order("33", addedProducts);
         return orderRepo.addOrder(newOrder);
 
     }

@@ -15,7 +15,7 @@ public class OrderRepo {
     public OrderRepo() {
         orderList = new HashMap<>();
 
-        orderList.put("1", new Order(
+      /*  orderList.put("1", new Order(
                 "1", List.of(new Product(
                 "1", "Banana")
         )));
@@ -23,7 +23,7 @@ public class OrderRepo {
         orderList.put("2", new Order(
                 "2", List.of(new Product(
                 "2", "Pineapple")
-        )));
+        )));*/
     }
 
     public List<Order> listAllOrders() {
